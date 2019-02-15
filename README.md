@@ -1,4 +1,4 @@
-FlexyGrid
+:tada: grid
 ======
 
-The ultimate Flexbox grid!
+tadagrid &mdash; The ultimate Flexbox grid

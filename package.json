@@ -1,17 +1,17 @@
 {
-  "name": "flexygrid",
+  "name": "tadagrid",
   "version": "0.0.1",
   "description": "The ultimate Flexbox grid",
-  "main": "dist/flexygrid.css",
-  "style": "dist/flexygrid.css",
-  "sass": "src/flexygrid.scss",
+  "main": "dist/tadagrid.css",
+  "style": "dist/tadagrid.css",
+  "sass": "src/tadagrid.scss",
   "scripts": {
-    "build": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/flexygrid.scss dist/flexygrid.css",
+    "build": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/tadagrid.scss dist/tadagrid.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tzi/flexygrid.git"
+    "url": "git+https://github.com/tzi/tadagrid.git"
   },
   "keywords": [
     "css",
@@ -23,9 +23,9 @@
   "author": "Thomas Zilliox <https://tzi.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tzi/flexygrid/issues"
+    "url": "https://github.com/tzi/tadagrid/issues"
   },
-  "homepage": "https://github.com/tzi/flexygrid#readme",
+  "homepage": "https://github.com/tzi/tadagrid#readme",
   "dependencies": {
     "node-sass": "^4.11.0"
   }

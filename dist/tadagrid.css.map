@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "tadagrid.css",
+	"sources": [
+		"../src/tadagrid.scss"
+	],
+	"sourcesContent": [
+		".tada-grid {\n  display: flex;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;CACd"
+}

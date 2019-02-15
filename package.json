@@ -1,0 +1,32 @@
+{
+  "name": "flexygrid",
+  "version": "0.0.1",
+  "description": "The ultimate Flexbox grid",
+  "main": "dist/flexygrid.css",
+  "style": "dist/flexygrid.css",
+  "sass": "src/flexygrid.scss",
+  "scripts": {
+    "build": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/flexygrid.scss dist/flexygrid.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzi/flexygrid.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "grid",
+    "flexbox",
+    "responsive"
+  ],
+  "author": "Thomas Zilliox <https://tzi.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzi/flexygrid/issues"
+  },
+  "homepage": "https://github.com/tzi/flexygrid#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
